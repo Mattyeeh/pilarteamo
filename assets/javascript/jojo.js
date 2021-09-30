@@ -7,5 +7,5 @@ var video = document.getElementById("background");
     app.videoElement.volume = 0
 
 function discord() {
-  alert("discord: mago#8888");
+  alert("discord: <3 mattyeh#8100 & Pilar#0300 <3");
 }

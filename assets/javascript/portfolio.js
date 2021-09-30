@@ -12,17 +12,17 @@
     $(document).ready(function () {
         var links = [
             {
-                name: 'twitter',
-                link: 'https://twitter.com/IiItroca'
+                name: 'Que me saquen todo',
+                link: 'https://www.google.com/search?q=Que+haces+apretando+ac%C3%A1%3F&oq=Que+haces+apretando+ac%C3%A1%3F&aqs=edge..69i57.2839j0j1&sourceid=chrome&ie=UTF-8'
             },
                 
             {
-                name: 'github',
+                name: 'menos vos',
                 link: 'http://github.com/thedamnboss'
             },
 
             {
-                name: 'steam',
+                name: 'menos vos...',
                 link: 'https://steamcommunity.com/id/cryptomonedas/'
             },
 
@@ -34,7 +34,7 @@
 			$('#marquee').append('<a href="'+ link.link +'" target="_BLANK">' + link.name + '</a>');
 			
             if (i != links.length - 1) 
-                $('#marquee').append(' <img class="emoticon" src="https://cdn.discordapp.com/emojis/890721340250800148.png?size=16"> ');
+                $('#marquee').append(' <img class="emoticon" src="https://cdn.discordapp.com/emojis/833588187417804840.gif?size=16"> ');
         }
 
         if (window.mobileAndTabletCheck()) {
@@ -108,7 +108,7 @@
     (function () {
         $.getJSON('https://freegeoip.app/json/', function (data) {
 
-            writeLine(["<span style='font-size: 14px; color: #00aff2;'>Welcome</span>...", "Granting access to <span style='font-size: 14px; color: #06d;'>[mago.xyz]</span>..."], 30, function () {
+            writeLine(["<span style='font-size: 14px; color: #ffffff;'>Welcome</span>...", "Granting access to <span style='font-size: 14px; color: #7d7dff;'>[unknown]</span>..."], 30, function () {
 
                 if (app.skippedIntro)
                 	return;
@@ -125,7 +125,7 @@
 
                     clearCursor();
 
-                    writeLine(["<i style='color: #ec7dd9'>mago.xyz</i>"], 120, 500, function () {
+                    writeLine(["<i style='color: #fb6fb8'>2909.ml</i>"], 120, 500, function () {
 
                         timeouts.push(setTimeout(function () {
 
